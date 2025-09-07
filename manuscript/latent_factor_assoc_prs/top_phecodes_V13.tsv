@@ -1,0 +1,11 @@
+phecodes	weight	latent_factor	phenotype	description	group
+244	30.114258770451	V13	244	Hypothyroidism	endocrine/metabolic
+244.4	27.7918382560276	V13	244.4	Hypothyroidism NOS	endocrine/metabolic
+244.1	4.02812731414737	V13	244.1	Secondary hypothyroidism	endocrine/metabolic
+245	3.86762920674779	V13	245	Thyroiditis	endocrine/metabolic
+245.2	2.51629424237963	V13	245.2	Chronic thyroiditis	endocrine/metabolic
+245.21	2.46096373220623	V13	245.21	Chronic lymphocytic thyroiditis	endocrine/metabolic
+244.2	1.76456730341279	V13	244.2	Acquired hypothyroidism	endocrine/metabolic
+193	1.1682086251323	V13	193	Thyroid cancer	neoplasms
+253	0.565858246348261	V13	253	Disorders of the pituitary gland and its hypothalamic control	endocrine/metabolic
+253.1	0.415384130797274	V13	253.1	Pituitary hyperfunction	endocrine/metabolic

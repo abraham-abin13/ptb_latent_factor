@@ -1,0 +1,33 @@
+
+
+
+make_ptb_term_w_race_no_delivery_codes.py - script used to make the input tensor 
+run_parafac_preterm_term_all_races_icd9_no_preg.slurm - script to run the decomposition
+
+Phecode Association Analysis with PTB
+- /manuscript/phecode_assoc_w_ptb/manuscript_assoc_with_ptb_manual_to_phe_icd9_only.R - script to run phecode association with preterm birth 
+- /manuscript/phecode_assoc_w_ptb/results_black_assoc_w_ptb_icd9_only.tsv - results from association analysis for caucasian cohort 
+- /manuscript/phecode_assoc_w_ptb/results_white_assoc_w_ptb_icd9_only.tsv - results from association analysis for African American cohort 
+- /manuscript/phecode_assoc_w_ptb/manuscript_plot_icd9_only_phecode_associations.py - script to plot phecode associations with ptb (Figure 1)
+
+Latent Factor Examples 
+- /manuscript/latent_factor_examples/manu_lf_examples.py - script to generate plots of latent factor examples (Figure 2)
+
+Predict PTB from factors 
+- manuscript/ptb_predict_from_factors/manu_predict_from_factors.py - script to predcit ptb from latent factors  (Figure 4)
+
+Polygenic risk scores associated with PTB 
+- manuscript/prs_assoc_ptb/manu_white_case_control_vs_prs_.py - script to plot prs associations with ptb (Figure 5)
+- manuscript/prs_assoc_ptb/download_prs.py - script to dowlonad prs weights (input is file pgs_scores_data.xlsx)
+- manuscript/prs_assoc_ptb/parse_pgs_prs.py - script to tidy up downloaded prs weights 
+- *** weights used in calculating PRS - *** 
+
+Latent Factors associated with PRS 
+- /manuscript/latent_factor_assoc_prs/plot_lf_assoc_prs.py - script to plot heatmaps of latent factors assoc with ptb and not-ptb 
+- /manuscript/latent_factor_assoc_prs/no_ptb_lf_prs_plot_df.tsv.gz - data used to generate heatmap of latent factors assoc with prs for not-ptb cohort
+- /manuscript/latent_factor_assoc_prs/ptb_lf_prs_plot_df.tsv.gz - data used to generate heatmap of latent factors assoc with prs for ptb cohort
+- /manuscript/latent_factor_assoc_prs/manu_lf_assoc_w_prs.py - script to run regression to find latent factors associated with prs 
+- /manuscript/latent_factor_assoc_prs/top_phecodes_V6.tsv - Top phecodes from latent factor 6 
+- /manuscript/latent_factor_assoc_prs/top_phecodes_V13.tsv - Top phecodes from latent factor 13 
+
+
